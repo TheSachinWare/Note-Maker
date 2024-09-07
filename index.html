@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Taking App</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <h1 class="heading">Smart Note Taking Website</h1>
+    <div id="container">
+        <div class="notes-container">
+            <form class="add-note-form">
+            <label for="note-title" class="title11">Note Title:</label>
+            <input type="text" id="note-title" name="noteTitle" required>
+            <label for="note-content" class="title11">Note Content:</label>
+            <textarea id="note-content" name="noteContent" rows="5" required></textarea>
+            <button type="submit">Add Note</button>
+            </form>
+
+            <ul class="notes-list">
+            <li class="note">
+                <h2 class="note-title">Note Title</h2>
+                <p class="note-content">Note Content</p>
+                <button class="delete-note">Delete Note</button>
+                <!-- <button class="edit-note">Edit Note</button> -->
+                <!-- Add this button inside the note element -->
+                <button class="edit-note1">Edit Button</button>
+                <!-- Add the share-note button inside the note element -->
+                <button class="share-note" data-title="Note Title" data-content="Note Content">Share Note</button>
+
+            </li>
+            </ul>
+        </div>
+    </div>
+
+  <!-- <script src="script.js"></script> -->
+  <!-- <script src="script1.js"></script> -->
+  <script src="script2.js"></script>
+</body>
+</html>
